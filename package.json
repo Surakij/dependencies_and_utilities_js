@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/Surakij/dependencies_and_utilities_js/issues"
   },
-  "homepage": "https://github.com/Surakij/dependencies_and_utilities_js#readme"
+  "homepage": "https://github.com/Surakij/dependencies_and_utilities_js#readme",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
 }
