@@ -11,6 +11,8 @@ jobs:
   codesandbox-comment:
     name: Add codesandbox link comment
     runs-on: ubuntu-latest
+    permissions:
+      pull-requests: write
     steps:
       - uses: mshick/add-pr-comment@v1
         env:
