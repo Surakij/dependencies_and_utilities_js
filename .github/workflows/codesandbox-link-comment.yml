@@ -1,4 +1,4 @@
-name: Add codesandbox link
+name: Add codesandbox link 2
 
 on:
   pull_request:
