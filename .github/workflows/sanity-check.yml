@@ -3,6 +3,8 @@ name: PR Sanity Check
 on: pull_request
 
 jobs:
+  runs:
+    using: "node16"
   lint:
     runs-on: ubuntu-20.04
     steps:
